@@ -1,3 +1,7 @@
-h1{
-  font-family: $font-family-title;
+.logo {
+    width: 53px;
+
+    @include mobile {
+        width: 40px;
+    }
 }
