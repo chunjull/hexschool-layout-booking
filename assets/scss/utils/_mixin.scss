@@ -1,5 +1,18 @@
+@mixin pc {
+    @media (min-width: 992px) {
+        @content;
+    }
+}
+
 @mixin mobile {
     @media (max-width: 767px) {
         @content;
     }
+}
+
+@mixin bg-cover($url) {
+    background-image: url($url);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }

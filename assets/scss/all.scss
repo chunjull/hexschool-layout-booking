@@ -7,8 +7,11 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "./utils/mixin";
 @import "./base/fontStyle";
+@import "./base/icons";
 @import "./components/icofont/icofont.min.css";
 @import "./components/fontFamily";
+@import "./components/sparkler";
+@import "./components/tag";
 
 @import "./layout/header";
 @import "./layout/footer";

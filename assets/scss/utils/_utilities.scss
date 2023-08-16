@@ -506,6 +506,7 @@ $utilities: map-merge(
     ),
     "font-size": (
       rfs: true,
+      responsive: true,
       property: font-size,
       class: fs,
       values: $font-sizes
@@ -799,7 +800,7 @@ $utilities: map-merge(
       property: z-index,
       class: z,
       values: $zindex-levels,
-    )
+    ),
     // scss-docs-end utils-zindex
   ),
   $utilities
