@@ -1,0 +1,23 @@
+.banner-img {
+    height: 518px;
+
+    @include mobile {
+        height: 350px;
+    }
+}
+
+.recent-event-img {
+    height: 255px;
+
+    @include mobile {
+        height: 210px;
+    }
+}
+
+.online-img {
+    height: 317px;
+
+    @include mobile {
+        height: 158px;
+    }
+}
