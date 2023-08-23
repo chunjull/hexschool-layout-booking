@@ -43,3 +43,26 @@
     
     }
 }
+
+.h2-transform {
+    transform: translate(-50%, -50%) rotate(-4deg);
+}
+
+.rotate-card {
+	&:nth-child(2n) {
+		transform: rotate(2deg);
+	}
+	&:nth-child(3) {
+		transform: rotate(-2deg);
+	}
+}
+
+.item {
+    img {
+        height: 274px;
+
+        @include mobile {
+            height: 267px;
+        }
+    }
+}
